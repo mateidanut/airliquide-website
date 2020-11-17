@@ -1,0 +1,53 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.11",
+    "@amcharts/amcharts4-fonts": "^4.0.1",
+    "@amcharts/amcharts4-geodata": "^4.1.19",
+    "canvasjs": "^1.8.3",
+    "gatsby": "^2.25.1",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-manifest": "^2.5.1",
+    "gatsby-plugin-offline": "^3.3.1",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sharp": "^2.7.0",
+    "gatsby-source-filesystem": "^2.4.0",
+    "gatsby-transformer-sharp": "^2.5.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-amcharts4": "^0.0.4",
+    "react-async-component": "^2.0.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "recharts": "^1.8.5",
+    "swr": "^0.3.8"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "2.1.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
